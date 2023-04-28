@@ -1,19 +1,23 @@
 ---
 sidebar_position: 3
 ---
+
 # ❓ Frequently Asked Questions
+
 ### Introduction
-Below is a list of the most frequently asked questions about AgentGPT. If you have any unanswered questions, please reach out to the moderation or dev team on [Discord](https://discord.gg/jdSBAnmdnY) or [GitHub](https://github.com/reworkd/AgentGPT). 
+
+Below is a list of the most frequently asked questions about AGIExpress. If you have any unanswered questions, please reach out to the moderation or dev team on [Discord](https://discord.gg/m659tAca) or [GitHub](https://github.com/AGIExpress/AGIExpress).
 
 ### API key issues
+
 <details>
 <summary>Where can I get an API key?</summary>
 You should first sign up for an OpenAI account. You can do so <a href="https://openai.com/blog/openai-api">here</a>. 
 For new accounts, you will be placed under a free tier with $18 of free credits.
-All you need to do now is visit the <a href="https://platform.openai.com/account/api-keys">API keys page</a>, create a new key, and place the key within the AgentGPT settings menu.
+All you need to do now is visit the <a href="https://platform.openai.com/account/api-keys">API keys page</a>, create a new key, and place the key within the AGIExpress settings menu.
 <br></br>
 <br></br>
-<strong>NOTE:</strong> This key should be private and should not be shared publicly. AgentGPT does not save this key in a database, it is simply stored in your browser. 
+<strong>NOTE:</strong> This key should be private and should not be shared publicly. AGIExpress does not save this key in a database, it is simply stored in your browser. 
 </details>
 
 <details>
@@ -25,7 +29,8 @@ Expired credit will show up as red such as the below image
 ![Example banner](./assets/expired-free-tier.png)
 
 If you have used up your free tier credits, you will need to add billing information into your API key: <a href="https://platform.openai.com/account/billing/overview">OpenAI API Overview</a>.
-Note that a few runs of AgentGPT will only cost a few cents.
+Note that a few runs of AGIExpress will only cost a few cents.
+
 </details>
 
 <details>
@@ -37,14 +42,15 @@ You can do so by visiting the following link and adding a payment method: <a hre
 </details>
 
 ### Agent issues
+
 <details>
-<summary>AgentGPT said it made a file / database / script, where can I find it?</summary>
-Currently AgentGPT is incapable of outputs in that manner, but this is something we are actively working on. 
+<summary>AGIExpress said it made a file / database / script, where can I find it?</summary>
+Currently AGIExpress is incapable of outputs in that manner, but this is something we are actively working on. 
 Keep an eye on our <a href="/docs/roadmap">roadmap</a> to get an idea for when this might be available. 
 </details>
 
 <details>
-<summary>Did AgentGPT actually email 100 people?</summary>
+<summary>Did AGIExpress actually email 100 people?</summary>
 No! We don't currently support this functionality, but its something we're looking to implement. View our <a href="/docs/roadmap">roadmap</a> to get an idea for when this might be available. 
 When this does work, we'll be sure to validate that an action like "sending an email" is actually something you want to do 🙂
 </details>
@@ -58,13 +64,13 @@ If you provide your own API key you can increase the number of loops your Agent 
 <details>
 <summary>My Agent was doing great but then it got stopped! Can I start from where I left off?</summary>
 Currently all Agent runs are isolated from each other so this is not possible. 
-This is something we want to add in the future, but in the meantime you can create another AgentGPT run using the information it generated for you from the previous run.
+This is something we want to add in the future, but in the meantime you can create another AGIExpress run using the information it generated for you from the previous run.
 Keep an eye on our <a href="/docs/roadmap">roadmap</a> to get an idea for when this might be available.
 </details>
 
 <details>
-<summary>Can AgentGPT use GPT-4?</summary>
-AgentGPT currently uses GPT-3.5 due to costs and availability. If you have API access to GPT-4, you can input your own API key in the settings menu and select GPT-4 as the model. 
+<summary>Can AGIExpress use GPT-4?</summary>
+AGIExpress currently uses GPT-3.5 due to costs and availability. If you have API access to GPT-4, you can input your own API key in the settings menu and select GPT-4 as the model. 
 </details>
 
 <details>
@@ -80,29 +86,25 @@ If you provide your own API key, you can increase the output length within the a
 </details>
 
 ### Misc
+
 <details>
 <summary>What is the difference between this and AutoGPT?</summary>
-Both AgentGPT and AutoGPT are projects involving autonomous AI agents. AutoGPT is a tool that one runs locally while AgentGPT is a web based platform.
+Both AGIExpress and AutoGPT are projects involving autonomous AI agents. AutoGPT is a tool that one runs locally while AGIExpress is a web based platform.
 </details>
 
 <details>
-<summary>What can AgentGPT do?</summary>
-AgentGPT can do a lot, but we're also working on giving it a lot more capabilities. Visit our <a href="/docs/usecases">usecases</a> page to learn about how people currently use AgentGPT.
+<summary>What can AGIExpress do?</summary>
+AGIExpress can do a lot, but we're also working on giving it a lot more capabilities. Visit our <a href="/docs/usecases">usecases</a> page to learn about how people currently use AGIExpress.
 </details>
 
 <details>
-<summary>Does AgentGPT have access to the internet?</summary>
+<summary>Does AGIExpress have access to the internet?</summary>
 Not yet but this is coming very soon! Keep an eye on our <a href="/docs/roadmap">roadmap</a>.
 </details>
 
-
-### Local contribution issues 
+### Local contribution issues
 
 <details>
-<summary>I'm having trouble setting up AgentGPT locally!</summary>
-Please visit our <a href="/docs/setup">setup</a> guide to diagnose any issues. If you have a problem that is undocumented, please submit an <a href="https://github.com/reworkd/AgentGPT/issues">issue on GitHub</a>.
+<summary>I'm having trouble setting up AGIExpress locally!</summary>
+Please visit our <a href="/docs/setup">setup</a> guide to diagnose any issues. If you have a problem that is undocumented, please submit an <a href="https://github.com/AGIExpress/AGIExpress/issues">issue on GitHub</a>.
 </details>
-
-
-
-
