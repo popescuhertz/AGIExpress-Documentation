@@ -46,6 +46,10 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           routeBasePath: "/",
         },
+        gtag: {
+          trackingID: "G-V9QHY51PL6",
+        },
+
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
