@@ -78,6 +78,13 @@ const config = {
         title: "🤖 AGIExpress",
         items: [
           {
+            href: "https://app.agi.express",
+            label: "App",
+            position: "left",
+            className: "blog-link",
+            "aria-label": "AGIExpress home",
+          },
+          {
             href: "https://agi.express",
             label: "Home",
             position: "left",
