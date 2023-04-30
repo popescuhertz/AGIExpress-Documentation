@@ -82,7 +82,7 @@ const config = {
             label: "App",
             position: "left",
             className: "blog-link",
-            "aria-label": "AGIExpress home",
+            "aria-label": "AGIExpress app",
           },
           {
             href: "https://agi.express",
