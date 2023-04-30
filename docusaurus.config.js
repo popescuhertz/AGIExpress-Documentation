@@ -73,12 +73,20 @@ const config = {
         title: "🤖 AGIExpress",
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            href: "https://agi.express",
+            label: "Home",
             position: "left",
-            label: "Docs",
+            className: "blog-link",
+            "aria-label": "AGIExpress home",
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: "https://agi.express/blog",
+            label: "Blog",
+            position: "left",
+            className: "blog-link",
+            "aria-label": "AGIExpress blog",
+          },
           {
             href: "https://github.com/AGIExpress/AGIExpress",
             position: "right",
