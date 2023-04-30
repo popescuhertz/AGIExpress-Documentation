@@ -49,7 +49,12 @@ const config = {
         gtag: {
           trackingID: "G-V9QHY51PL6",
         },
-
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
