@@ -36,6 +36,16 @@ All accounts start with $18 of free credits but this can be used of or expired. 
 You can do so by visiting the following link and adding a payment method: <a href="https://platform.openai.com/account/billing/overview">OpenAI API Overview</a>.  
 </details>
 
+<details>
+<summary>How much will AgentGPT cost me?</summary>
+Using AgentGPT is free as we handle the API costs. If you provide your own API key however, the cost per agent deployment will depend on the model that you use. 
+<ul>
+    <li>gpt-3.5-turbo will cost only a few cents per run at most</li>
+    <li>gpt-4 is a lot more expensive. Be sure to limit its loops and watch over costs carefully</li>
+    <li>NOTE: You can limit the number of loops and number of tokens within the advanced settings</li>
+</ul>
+</details>
+
 ### Agent issues
 <details>
 <summary>AgentGPT said it made a file / database / script, where can I find it?</summary>
@@ -80,6 +90,11 @@ If you provide your own API key, you can increase the output length within the a
 </details>
 
 ### Misc
+<details>
+<summary>What is the difference between this and ChatGPT?</summary>
+ChatGPT is a great tool that will allow you to ask a specific question and receive a result. AgentGPT on the otherhand is a platform for AI agents. You configure an agent to accomplish a broad goal, and it will automatically think and perform tasks to achieve it.
+</details>
+
 <details>
 <summary>What is the difference between this and AutoGPT?</summary>
 Both AgentGPT and AutoGPT are projects involving autonomous AI agents. AutoGPT is a tool that one runs locally while AgentGPT is a web based platform.
