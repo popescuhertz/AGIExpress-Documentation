@@ -23,6 +23,9 @@ AGIExpress developers are actively working on the following. Expect these to tak
 :::
 
 - 🌐 **Web browsing capabilities**
+  - We have a basic version implemented that performs and summarizes a Google search via the SERP api.
+  - Note we've had to disable this due to costs, we will have it back up and running permanently within the week.
+  - This does not currently visit the websites themselves and parse websites but we are working on this.
 - ✈ **Backend migration to Python**
   - This is a bigger undertaking but something we feel must be done. It will allow us to migrate off of edge functions and use all of the tools available for language models in the Python ecosystem.
 - 🧠 **Long term memory via a vector DB**
